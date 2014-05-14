@@ -1,6 +1,6 @@
 #include<math.h>
 
-#define NDIGITS 64
+#define NDIGITS 52
 
 double
 fdiv_nr(double x) {
