@@ -1,3 +1,5 @@
 *.o
 test_fdiv
 divide
+enquire
+*.dSYM
