@@ -1,5 +1,4 @@
 #include<math.h>
-#include<stdio.h>
 
 #define NDIGITS 64
 
@@ -20,34 +19,4 @@ fdiv_nr(double x) {
     }
 
     return v * scale;
-}
-
-/* Basic functionality test */
-int main() {
-	double a,b;
-	a = 1;
-	printf("a:    %.15e\n", a);
-	b = fdiv_nr(a);
-	printf("ainv: %.15e\n", b);
-	printf("prod: %.15e\n", a*b);
-
-	a = 2;
-	printf("a:    %.15e\n", a);
-	b = fdiv_nr(a);
-	printf("ainv: %.15e\n", b);
-	printf("prod: %.15e\n", a*b);
-
-	a = 3;
-	printf("a:    %.15e\n", a);
-	b = fdiv_nr(a);
-	printf("ainv: %.15e\n", b);
-	printf("prod: %.15e\n", a*b);
-
-	a = 7;
-	printf("a:    %.15e\n", a);
-	b = fdiv_nr(a);
-	printf("ainv: %.15e\n", b);
-	printf("prod: %.15e\n", a*b);
-
-	return 0;
 }
